@@ -58,11 +58,11 @@ const TopBar = (props) => {
                         <MenuIcon />
                     </IconButton>
                     <Typography
-                        variant="h6"
+                        variant="h7"
                         component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', color : '#616161' } }}
+                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', color : '#616161', fontWeight: 'bold' } }}
                     >
-                        MUI
+                        APP LOGO
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
